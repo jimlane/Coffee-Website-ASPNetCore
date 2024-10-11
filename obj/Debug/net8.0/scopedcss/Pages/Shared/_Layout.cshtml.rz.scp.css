@@ -1,0 +1,84 @@
+body[b-jge3bfc57u]{
+	background-color:moccasin;
+	margin:0;
+}
+.cover[b-jge3bfc57u]{
+	display:block;;
+	margin: 45px auto;
+	margin-bottom:20px;
+	width:1296px;
+	height:471px;
+}
+.main[b-jge3bfc57u]{
+	margin-left:140px;
+	margin-right:140px;
+	margin-bottom:20px;
+}	
+.main p[b-jge3bfc57u], .grind-list li[b-jge3bfc57u], form[b-jge3bfc57u]{
+	font-size:18px;
+	color:darkred;
+}
+.main h1[b-jge3bfc57u]{
+	text-align:center;
+}
+aside[b-jge3bfc57u]{
+	width:250px;
+	float:right;
+	text-align:center;
+	background-color:tan;
+	padding:15px;
+	margin-left:20px;
+	margin-bottom:20px;
+	font-weight:bold;
+}
+nav ul[b-jge3bfc57u]{
+	position:fixed;
+	top:0;
+	width:100%;
+	background-color:black;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	
+}
+nav ul li[b-jge3bfc57u]{
+	float:left;
+    border-right: 1px solid #bbb;
+}
+nav ul li a[b-jge3bfc57u]{
+	display: block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+nav ul li a:hover[b-jge3bfc57u] {
+    background-color: black;
+}
+.active[b-jge3bfc57u] {
+    background-color: #4CAF50;
+}
+.brewing-list[b-jge3bfc57u]{
+	list-style-image:url("../../images/tiny-coffee-cup.gif");
+}
+.brewing-list li a[b-jge3bfc57u]{
+	text-align:center;
+	text-decoration:none;
+	color:brown;
+	font-weight:bold;
+}
+.brewing-list li a:hover[b-jge3bfc57u]{
+	color:blue;
+}
+table td[b-jge3bfc57u],table th[b-jge3bfc57u]{
+	border: 1px solid brown;
+	padding:5px;
+	color:darkred;
+	font-size:18px;
+}
+table[b-jge3bfc57u]{
+	text-align:center;
+	border-collapse:collapse;
+	
+}

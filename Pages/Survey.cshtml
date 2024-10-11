@@ -1,0 +1,49 @@
+﻿@page
+@model SurveyModel
+
+<nav>
+	<ul>
+	<li><a class="nav-link text-dark" asp-area="" asp-page="/index">Home</a></li>
+	<li><a class="nav-link text-dark" asp-area="" asp-page="/roasting">Roasting</a></li>
+	<li><a class="nav-link text-dark" asp-area="" asp-page="/grinding">Grinding</a></li>
+	<li><a class="nav-link text-dark" asp-area="" asp-page="/brewing">Brewing</a></li>
+	<li><a class="nav-link text-dark" asp-area="" asp-page="/drinks">Drinks</a></li>
+	<li><a class="active" asp-area="" asp-page="/survey">Survey</a></li>
+	</ul>
+</nav>
+
+<h1>Coffee Survey</h1>
+<form action="http://localhost/\coffee-survey.php" method="post" target="_blank">
+<fieldset>
+<legend class="legends"><h2>Personal Information</h2></legend> <!--can also be written as <br/>-->
+<strong>Your Name:</strong>
+<input type="text" name="name" required size="30"/><br><br>
+<strong>Email Address:</strong>
+<input type="email" name="email" required placeholder="enter a valid email address" size="30"/><br>
+</fieldset>
+<fieldset>
+<legend class="legends"><h2>Coffee Drinks</h2></legend>
+<strong>Tell us your coffee preparation methods.</strong><br>
+<textarea name="preparation" cols="40" rows="5" required></textarea>
+<br><br>
+<strong>Do you grind your own beans?</strong><br>
+<input type="radio" name="grind" value="Yes" required />Yes<br>
+<input type="radio" name="grind" value="No" required />No<br>
+<br>
+<strong>How do you drink your coffee?</strong><br>
+<input type="checkbox" name="sugar" value="Yes" />With Sugar<br>
+<input type="checkbox" name="cream" value="Yes" />With Cream<br>
+<br>
+<strong>What is your favorite coffee drink?</strong><br>
+<select name="favourite">
+<option value="">Please select a drink</option>
+<option value="drip">Drip Coffee</option>
+<option value="french">French Press</option>
+<option value="espresso">Espresso</option>
+<option value="latte">Latte</option>
+<option value="flavored">Flavored</option>
+</select>
+</fieldset><br>
+<input style="margin-left:625px;" type="Submit"  name="submit" value="submit" />
+</form>
+</div>

@@ -1,0 +1,84 @@
+﻿body{
+	background-color:moccasin;
+	margin:0;
+}
+.cover{
+	display:block;;
+	margin: 45px auto;
+	margin-bottom:20px;
+	width:1296px;
+	height:471px;
+}
+.main{
+	margin-left:140px;
+	margin-right:140px;
+	margin-bottom:20px;
+}	
+.main p, .grind-list li, form{
+	font-size:18px;
+	color:darkred;
+}
+.main h1{
+	text-align:center;
+}
+aside{
+	width:250px;
+	float:right;
+	text-align:center;
+	background-color:tan;
+	padding:15px;
+	margin-left:20px;
+	margin-bottom:20px;
+	font-weight:bold;
+}
+nav ul{
+	position:fixed;
+	top:0;
+	width:100%;
+	background-color:black;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	
+}
+nav ul li{
+	float:left;
+    border-right: 1px solid #bbb;
+}
+nav ul li a{
+	display: block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+nav ul li a:hover {
+    background-color: black;
+}
+.active {
+    background-color: #4CAF50;
+}
+.brewing-list{
+	list-style-image:url("../../images/tiny-coffee-cup.gif");
+}
+.brewing-list li a{
+	text-align:center;
+	text-decoration:none;
+	color:brown;
+	font-weight:bold;
+}
+.brewing-list li a:hover{
+	color:blue;
+}
+table td,table th{
+	border: 1px solid brown;
+	padding:5px;
+	color:darkred;
+	font-size:18px;
+}
+table{
+	text-align:center;
+	border-collapse:collapse;
+	
+}

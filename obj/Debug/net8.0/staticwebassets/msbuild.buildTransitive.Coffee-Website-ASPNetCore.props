@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Coffee-Website-ASPNetCore.props" />
+</Project>
